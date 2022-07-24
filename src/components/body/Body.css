@@ -125,12 +125,12 @@
 .About button {
     position: relative;
     background: var(--orange);
-    border-radius: 50px;
+    border-radius: 30px;
 	color: var(--white);
 	border: none;
     left: -5px;
     margin-top: 50px;
-	padding: 15px 30px;
+	padding: 13px 25px;
    
 	font: inherit;
     font-weight:bold;
@@ -140,6 +140,7 @@
 	outline: inherit;
   transition-duration: 0.5s;
 }
+
 
 
 .About button:hover {
@@ -152,21 +153,12 @@
   display: none;
 }
 
-.headshotContainerWeb{
-  display: flex;
- 
-  height: 100%;
-  width: 50%;
-  padding-inline: 40px;
-  align-items: center;
-  justify-content:center;
-  
-}
 
 .headshotContainerWeb{
   display: flex;
  
   height: 100%;
+  min-width: 700px;
   width: 33%;
   padding-inline: 40px;
   align-items: center;
@@ -176,20 +168,24 @@
 .Headshot{
 z-index: 10;
   position: absolute;
-  height:20vw;
-  width: 20wv;
-  max-width: 800px;
-  max-height: 800px;
-
+  height: auto;
+  width: 50%;
+  max-width: 500px;
+  max-height: 500px;
+  filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.093));
 }
 .AboutBackground svg {
   position:absolute;
-  height:30vw;
-  width: 30wv;
-  max-width: 1000px;
-  max-height: 1000px;
+  height:auto;
+  width: 50%;
+  width: 760px;
+  height: 760px;
+  filter: drop-shadow(3px 5px 2px rgba(0, 0, 0, 0.103));
+
 
 }
+
+
 
 @media (max-width: 900px) {
   h1 {
@@ -275,16 +271,16 @@ margin-left: 30px;}
   .Headshot{
     z-index: 10;
       position: relative;
-      height:60vw;
-      width: 60wv;
+      height:auto;
+      width: 70%;
    
 
     
     }
     .AboutBackground svg {
       position:absolute;
-      height:90vw;
-      width: 90wv;
+      height:auto;
+      width: 95%;
 
     
     }
