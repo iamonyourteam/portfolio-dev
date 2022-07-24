@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ce467e1b.css",
+    "main.js": "./static/js/main.78f3f1c6.js",
+    "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
+    "static/media/Headshot-Round.png": "./static/media/Headshot-Round.b13d95592848146961c4.png",
+    "static/media/RR-Markiting-Demo-Web.jpg": "./static/media/RR-Markiting-Demo-Web.dbfdc77a3747fdcf9bac.jpg",
+    "static/media/Ticker-Demo-Web.jpg": "./static/media/Ticker-Demo-Web.eaf463d7f27021e2dbc7.jpg",
+    "static/media/packaging-demo-web.jpg": "./static/media/packaging-demo-web.ca28a318d141a7477725.jpg",
+    "static/media/Awards-Demo-Web.jpg": "./static/media/Awards-Demo-Web.c3bb3fc7e453bd9c2988.jpg",
+    "static/media/Iphone-Demo-Web.jpg": "./static/media/Iphone-Demo-Web.20e2bbb69dd42f5c0a5c.jpg",
+    "static/media/TropicalShores-Demo-Web.jpg": "./static/media/TropicalShores-Demo-Web.44c5aa4ef10b1fc3b2e8.jpg",
+    "static/media/Jason-Neff-onWhite.svg": "./static/media/Jason-Neff-onWhite.e8bc5e7b4f2062a1241c54d5b0c7c283.svg",
+    "static/media/Jason-Neff-onGray.svg": "./static/media/Jason-Neff-onGray.cfe46db25665912fbb4008c437117dd5.svg",
+    "static/media/Jason-Neff-onColor.svg": "./static/media/Jason-Neff-onColor.917fad6387313a325845c01928a69bff.svg",
+    "index.html": "./index.html",
+    "main.ce467e1b.css.map": "./static/css/main.ce467e1b.css.map",
+    "main.78f3f1c6.js.map": "./static/js/main.78f3f1c6.js.map",
+    "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce467e1b.css",
+    "static/js/main.78f3f1c6.js"
+  ]
+}
