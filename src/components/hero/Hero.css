@@ -1,0 +1,128 @@
+@import "../../App.css";
+
+.Hero{
+    display:flex;
+position: relative;
+ flex-direction: column;
+ align-items:center;   
+    align-self: center;
+    width:100vw;
+
+padding-top: 200px;
+padding-bottom: 350px;
+background-size: 300% 300%;
+background-image: linear-gradient(
+          -45deg, 
+          #bfe8ff 10%, 
+          rgba(73, 177, 224, 0.685) 25%, 
+          #75c0e085,
+          var(--orange)
+    );  
+    animation: AnimateBG 20s ease infinite;
+
+
+}
+
+@keyframes AnimateBG { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+  }
+
+.Hello{
+    display:flex;
+    margin-top: 0px;
+    font-weight:900;
+    font-size:3.5em;
+    color:var(--gray);
+}
+
+
+
+
+.Name{
+  padding-top:200px;
+    color:var(--white);
+    font-weight:900;
+    font-size:5.5em;
+    height:150px;
+}
+
+
+
+
+
+@media (max-width:900px){
+    .Hello{
+        padding-top: 10px;
+        font-weight:900;
+        font-size:2.2em;
+        color:var(--gray);;
+    }
+    
+    .Name{
+      color:var(--white);
+      margin-top:-140px;
+        font-weight:900;
+        height:70px;
+    }
+    
+
+
+}
+
+.waves {
+position: relative;
+    width: 100%;
+    height:15vh;
+    margin-top: -15vh;
+    min-height:100px;
+    max-height:150px;
+  }
+  
+  
+  
+  /* Animation */
+  
+  .parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+  }
+  .parallax > use:nth-child(1) {
+    animation-delay: -12s;
+    animation-duration: 30s;
+  }
+  .parallax > use:nth-child(2) {
+    animation-delay: -13s;
+    animation-duration: 70s;
+  }
+  .parallax > use:nth-child(3) {
+    animation-delay: -14s;
+    animation-duration: 90s;
+  }
+  .parallax > use:nth-child(4) {
+    animation-delay: -15s;
+    animation-duration: 120s;
+  }
+  @keyframes move-forever {
+    0% {
+     transform: translate3d(-90px,0,0);
+    }
+    100% { 
+      transform: translate3d(85px,0,0);
+    }
+  }
+  /*Shrinking for mobile*/
+  @media (max-width: 768px) {
+    .waves {
+      height:90px;
+      min-height:40px;
+    }
+
+  }
+
+main{
+      position: absolute;
+    height: 1000px;
+    width: 100%;
+    z-index: -10;
+  }

@@ -1,0 +1,27 @@
+
+.ProjectsContainer{
+    display:flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.WorkCard{
+    flex-grow: 10;
+  display: flex;
+  
+  justify-content:center;
+height: 250px;
+width: 450px;
+max-width: 750px;
+background:var(--orange);
+border-radius: .5rem;
+
+box-shadow:
+0px 0px 10px 5px rgba(0, 0, 0, 0.116)
+;
+}

@@ -1,0 +1,111 @@
+
+@import "../../App.css";
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav{
+    
+    display:flex;
+    align-self: center;
+    justify-content: space-between;
+    width:100vw;
+    position: absolute;
+    z-index: 100;
+}
+
+.Logo {
+    align-self: center;
+    font-size:2em;
+    font-weight:bold;
+    padding:1em;
+}
+
+
+@media (min-width: 900px){
+    
+    .MobileNavHeader{
+        display:none;
+    }
+    .LinksContainer{
+        align-self: center;
+        font-weight: 400;
+            font-size:2em;
+           
+                    
+    }
+    .LinksContainer ul{
+    
+            display: flex;
+            list-style-type: none;
+            padding-inline: 30px;
+            
+    }
+    .LinksContainer li{
+    padding-inline:30px;
+ 
+    
+    }
+
+    .Link{
+        color: var(--white);
+        opacity: .8;
+    }
+    .Link:hover {
+        color: var(--white);
+        opacity: .4;
+        
+    }
+
+/* CLOAD */
+
+
+
+
+}
+
+@media (max-width:900px){
+    
+    .MobileNavHeader{
+        margin-top: -15vh;
+        visibility:visible;
+        padding-bottom: 5vh;
+    }
+
+    .LinksContainer{
+        display:none;
+        background-color:var(--gray);
+        color:rgb(221, 221, 221);
+        position:fixed;
+        width:100vw;
+        height: 100vh;
+        font-weight:900;
+        font-size:2em;
+        padding:1em;
+
+}
+.LinksContainer ul{
+    
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.LinksContainer li{
+padding-top:30px;
+
+
+}
+
+.Link:hover {
+    color: var(--orange);
+    opacity: .7;
+    
+}
+
+
+
+}
+
+  

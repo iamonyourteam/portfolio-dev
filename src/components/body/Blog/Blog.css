@@ -1,0 +1,77 @@
+.Blog{
+   
+}
+.post h1 {
+    font-size:2em;
+}
+.post h2 {
+    font-size:2.5em;
+    
+}
+.post{
+    padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display:flex;
+gap: 2em;
+    box-shadow:
+    0.2px 0.5px 0.5px rgba(0, 0, 0, 0.02),
+    0.5px 1.1px 1.3px rgba(0, 0, 0, 0.028),
+    1px 2.1px 2.4px rgba(0, 0, 0, 0.035),
+    1.8px 3.8px 4.2px rgba(0, 0, 0, 0.042),
+    3.3px 7.1px 7.9px rgba(0, 0, 0, 0.05),
+    8px 17px 19px rgba(0, 0, 0, 0.07)
+}
+
+.postImg{
+    align-self: center;
+height: 100%;
+width:33%;
+overflow: hidden;
+
+
+
+}
+.postText{
+    width:66%;
+}
+
+.postImg img {
+    
+    width: 100%;
+    height:100%;
+    
+}
+
+@media (max-width:1440px){
+    .postImg img{
+    position: relative;
+        object-fit: cover;
+    width:100%;
+    height:600px;
+}}
+
+
+@media (max-width:900px){
+
+    .post{
+        flex-direction: column;
+    }
+    
+    .postImg{
+        position: relative;
+      
+        width:100%;
+        height:100%;
+    }
+    .postText{
+        width:100%;
+    }
+
+    .postImg img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+}
+

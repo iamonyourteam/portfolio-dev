@@ -1,0 +1,90 @@
+@import "../../App.css";
+
+
+
+.Footer{
+  
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-color: var(--secondary);
+    width:100vw;
+    color: var(--white);
+    height: auto;
+    gap:30px;
+    
+
+
+    
+    /* Only For Development */
+  padding-top:70px;
+  padding-bottom:50px;
+}
+
+.FooterLogo{
+    height:70px;
+    padding-top:30px;
+
+
+}
+
+.Header{
+   
+}
+
+.FooterContact{
+    display:flex;
+    justify-content: center;
+    
+    color:var(--gray);
+    padding-top:30px;
+    
+      font-weight:400;
+      font-size:1.5em;
+      gap:20px;
+      flex-wrap: wrap;
+      
+      
+      
+  }
+.FooterContact a button{
+  display:flex;
+  flex-direction:row;
+  
+  gap:20px;
+  align-items:center;
+
+  height:40px;
+  
+}
+  .FooterContact button{
+    background: none;
+    color: inherit;
+    border: none;
+    margin-top: 5%;
+    font: inherit;
+    outline: inherit;
+    cursor: pointer;
+    width:auto;
+  }
+  
+
+  .FooterContact a :hover{
+color: var(--lightgray)
+  }
+
+ 
+
+
+
+
+/* Mobile Screen Size */
+  @media (max-width:900px){
+    .FooterLogo{
+        height:50px;
+    }
+    .ContactText{
+display:none;
+    }
+  }
