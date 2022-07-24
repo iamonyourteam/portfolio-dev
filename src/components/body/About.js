@@ -20,8 +20,9 @@ class About extends Component {
 </div>
           <h2>Hey, I am Jason Neff  <br />I am an aspiring Web Developer    </h2>
           <p></p>
-          <p>I come from a career  not revolving around development however have always surrounded myself with my passion with design and problem solving with technology.</p>         
-          <p>My goal is to have fun with the process of learning. You can follow my progress in my blog below.</p>
+          <p> I am a self-taught Web Developer. My goal is to have fun with the process of learning as I develop my career in Web Development.</p>
+          <p>I have always surrounded myself with my passion for design and problem solving with technology.       
+           If you would like to follow me on my journey, check out my blog below.</p>
           <button ><a href="#Contact">Contact Me</a></button>
 </div>
 

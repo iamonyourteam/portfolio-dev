@@ -56,7 +56,7 @@ background-image: linear-gradient(
     .Hello{
         padding-top: 10px;
         font-weight:900;
-        font-size:2.2em;
+        font-size:2em;
         color:var(--gray);;
     }
     
@@ -64,7 +64,7 @@ background-image: linear-gradient(
       color:var(--white);
       margin-top:-140px;
         font-weight:900;
-        height:70px;
+        height:65px;
     }
     
 

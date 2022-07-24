@@ -15,19 +15,19 @@ class Web extends Component {
     let card1 = {
       title:"Iphone Clock Clone",
       photo:(IphoneDemo),
-      info:testparagraph,
+      info:"To better understand JavaScript I undertook trying to recreate the Iphone clock app using only vanilla JavaScipt. Before taking on this project I had not worked with APIs and was challenged in grasping how JS manipulated the DOM. This project was a big undertaking for my first project, however got me to understand a lot of concepts well.",
       workbuttons:[["Read More","#IphoneClock"],["Preview","https://iamonyourteam.github.io/iphoneapp/"],["GitHub","https://github.com/iamonyourteam/iphoneapp"]],
     }
     let card2 = {
       title:"Sports Ticker App",
-      info:testparagraph,
+      info:"I wanted to create a Sports Ticker that could be displayed on a thin monitor that would display updated Sports information on the major US Sports. Although I knew this was going to be a small project I wanted to get to know React ...",
       photo:(TickerDemo),
       workbuttons:[["Read More","#SportsTicker"]],
      
     }
     let card3 = {
       title:"CMS Ecommerce",
-      info:testparagraph,
+      info:"This website was developed for a local business that did not have an online store to sell their products. I wanted something that was easy for them to manage as the products would change over the course of the year. We chose Squarespace because of how easy it was to set up an online store and to manage. It also provided great allytics on the traffic and how the customers navigated the website...",
       photo:(PopcornDemo),
       workbuttons:[["Read More","#CMSEcommerce"],["Visit Site","https://www.tropicalshorespopcorn.com/"]],
       

@@ -17,21 +17,21 @@ class Design extends Component {
     let card1 = {
       title:"Awards Board Design",
       photo:(Awards),
-      info:testparagraph,
+      info:"Manager wanted to recognize his team for the sales and repair accomplishments of his branch. He wanted something he could add to the common meeting space of the team to recognize milestones and achievements...",
       workbuttons:[["Read More","#AwardsBoard"],["Preview","https://photos.app.goo.gl/6SoS5dZTNBHn9Mev8"]],
 
     }
     let card2 = {
       title:"Product Packaging",
       photo:(Packaging),
-      info:testparagraph,
+      info:"Created FDA compliant packaging for a popcorn business in Sarasota that made its way into Big Box stores. First I collected information about the needs of Owner and her customers to curate the design, materials and process for efficiently packaging and distributing the product...",
       workbuttons:[["Read More","#ProductPackaging"],["Preview","https://photos.app.goo.gl/1ZpZd8MRKYhHsc9cA"]],
     }
     let card3 = {
       title:"Marketing Material",
       photo:(Marketing),
-      info:testparagraph,
-      workbuttons:[["Read More","#MarketingMaterial"]],
+      info:"Designed print marketing materials for hiring and recruiting efforts. Adobe InDesign, Adobe Photoshop and Adobe Illustrator were used to create the design work. ",
+      workbuttons:[],
     }
 
 
